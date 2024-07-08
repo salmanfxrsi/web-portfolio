@@ -179,13 +179,11 @@ margin-bottom: 29.5px;}
 
 /* footer style */
 
-footer
+footer 
 {display: flex;
 padding: 130px 230px;
 gap: 100px;}
 
-.footer-column
-{}
 
 footer input[type="text"]
 {height: 64px;

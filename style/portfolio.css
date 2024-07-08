@@ -38,6 +38,12 @@ color: rgb(24, 24, 24);}
 font-size: 18px;
 color: rgb(117, 117, 117);}
 
+.text-center
+{text-align: center;}
+
+.secondary-bg
+{background-color: #FFF8F3;}
+
 
 /* header */
 .header
@@ -96,6 +102,10 @@ font-weight: bold;}
 main {max-width: 1140px;
 margin: 0 auto;}
 
+main section 
+{margin-top: 130px;
+margin-bottom: 130px;}
+
 /* aboutme styles */
 
 .aboutme 
@@ -103,8 +113,7 @@ margin: 0 auto;}
 border-radius: 10px;
 text-align: center;
 margin-top: ;
-padding: 130px 150px;
-margin-top: 130px;}
+padding: 130px 150px;}
 
 .about-items
 {display: flex;
@@ -120,3 +129,108 @@ font-size: 20px}
 .item-description
 {font-weight: 700;
 font-size: 20px;}
+
+/* skills-container style */
+
+.skills-container 
+{display: flex;
+color: rgb(255, 255, 255);
+gap: 24px;}
+
+.skill
+{border-radius: 5px;
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);}
+
+.skill-title
+{font-weight: 700;
+font-size: 20px;
+color: rgb(24, 24, 24);}
+
+.skill-description
+{font-weight: 400;
+font-size: 16px;
+color: rgb(117, 117, 117);}
+
+/* resume style */
+
+.resume-container {display: flex;
+gap: 24px;}
+
+.experience-title
+{font-weight: 700;
+font-size: 25px;
+color: rgb(71, 71, 71);
+margin-bottom: 10px;}
+
+.experience-sub-title
+{font-weight: 600;
+font-size: 20px;
+color: rgb(117, 117, 117);
+margin-bottom: 20px;}
+
+.experience-description
+{font-weight: 400;
+font-size: 16px;
+margin-bottom: 29.5px;}
+
+.button-download-cv
+{margin-top: 50px;}
+
+/* footer style */
+
+footer
+{display: flex;
+padding: 130px 230px;
+gap: 100px;}
+
+.footer-column
+{}
+
+footer input[type="text"]
+{height: 64px;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+display: block;
+width: 100%;
+padding: 10px 20px;
+margin-top: 28px;
+margin-bottom: 24px;
+font-size: 16px;
+font-weight: 400;}
+
+footer input[type="email"]
+{height: 64px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;}
+
+  footer input[type=""]
+{height: 64px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;}
+  
+  footer textarea
+  {height: 64px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;}
+
+
+
